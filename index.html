@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estatísticas de Esportes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Estatísticas de Esportes</h1>
+        <div class="input-group">
+            <label for="totalPessoas">Quantidade de pessoas pesquisadas:</label>
+            <input type="number" id="totalPessoas" placeholder="Digite a quantidade total">
+        </div>
+        <div class="input-group">
+            <label for="futebol">Quantidade de pessoas que curtem futebol:</label>
+            <input type="number" id="futebol" placeholder="Digite a quantidade">
+        </div>
+        <div class="input-group">
+            <label for="basquete">Quantidade de pessoas que curtem basquete:</label>
+            <input type="number" id="basquete" placeholder="Digite a quantidade">
+        </div>
+        <div class="input-group">
+            <label for="volei">Quantidade de pessoas que curtem vôlei:</label>
+            <input type="number" id="volei" placeholder="Digite a quantidade">
+        </div>
+        <div class="input-group">
+            <label for="handball">Quantidade de pessoas que curtem handball:</label>
+            <input type="number" id="handball" placeholder="Digite a quantidade">
+        </div>
+        <button onclick="calcularEstatisticas()">Calcular Estatísticas</button>
+
+        <div id="resultados" class="resultados"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
